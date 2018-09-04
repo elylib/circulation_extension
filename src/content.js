@@ -20,7 +20,7 @@ function scrubBarcode(patronInput) {
     return scrubbedBarcode;
 }
 
-if (window.location.href.indexOf('wms/cmnd/circ/') !== -1) {
+if (window.location.href.indexOf('wms/cmnd/circ') !== -1) {
     var interval = setInterval(function () {
         if (document.getElementsByClassName('barcodeinput barcoderecieved-patron').length > 0) {
             clearInterval(interval);

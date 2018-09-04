@@ -3,7 +3,7 @@
 
   "name": "Ely Library Worldshare Extension",
   "description": "Make barcode reading work",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "content_scripts": [{
     "all_frames": false,
     "matches": ["https://westfield.share.worldcat.org/*"],
